@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evenimente>
+	<eveniment>
+		<nume>Eveniment 1</nume>
+		<data>Data 1</data>
+		<ora>Ora 1</ora>
+		<descriere>Descriere 1</descriere>
+	</eveniment>
+	<eveniment>
+		<nume>Eveniment 2</nume>
+		<data>Data 2</data>
+		<ora>Ora 2</ora>
+		<descriere>Descriere 2</descriere>
+	</eveniment>
+	<eveniment>
+		<nume>Eveniment 3</nume>
+		<data>Data 3</data>
+		<ora>Ora 3</ora>
+		<descriere>Descriere 3</descriere>
+	</eveniment>
+	<eveniment>
+		<nume>Eveniment 4</nume>
+		<data>Data 4</data>
+		<ora>Ora 4</ora>
+		<descriere>Descriere 4</descriere>
+	</eveniment>
+	<eveniment>
+		<nume>Eveniment 5</nume>
+		<data>Data 5</data>
+		<ora>Ora 5</ora>
+		<descriere>Descriere 5</descriere>
+	</eveniment>
+</evenimente>
