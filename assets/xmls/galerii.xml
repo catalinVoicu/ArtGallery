@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<galerii>
+	<galerie>
+		<nume>Galeria 1</nume>
+		<adresa>Adresa 1</adresa>
+		<telefon>0720.000.001</telefon>
+	</galerie>
+	<galerie>
+		<nume>Galeria 2</nume>
+		<adresa>Adresa21</adresa>
+		<telefon>0720.000.002</telefon>
+	</galerie>
+	<galerie>
+		<nume>Galeria 3</nume>
+		<adresa>Adresa 3</adresa>
+		<telefon>0720.000.003</telefon>
+	</galerie>
+	<galerie>
+		<nume>Galeria 4</nume>
+		<adresa>Adresa 4</adresa>
+		<telefon>0720.000.004</telefon>
+	</galerie>
+</galerii>
