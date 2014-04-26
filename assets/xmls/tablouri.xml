@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tablouri>
+	<tablou>
+		<nume>Tablou 1</nume>
+		<autor>Autor 1</autor>
+		<data>An 1</data>
+		<descriere>Descriere 1</descriere>
+	</tablou>
+	
+	<tablou>
+		<nume>Tablou 2</nume>
+		<autor>Autor 2</autor>
+		<data>An 2</data>
+		<descriere>Descriere 2</descriere>
+	</tablou>
+	
+	<tablou>
+		<nume>Tablou 3</nume>
+		<autor>Autor 3</autor>
+		<data>An 3</data>
+		<descriere>Descriere 3</descriere>
+	</tablou>
+	
+	<tablou>
+		<nume>Tablou 4</nume>
+		<autor>Autor 4</autor>
+		<data>An 4</data>
+		<descriere>Descriere 4</descriere>
+	</tablou>
+	
+	<tablou>
+		<nume>Tablou 5</nume>
+		<autor>Autor 5</autor>
+		<data>An 5</data>
+		<descriere>Descriere 5</descriere>
+	</tablou>
+</tablouri>
