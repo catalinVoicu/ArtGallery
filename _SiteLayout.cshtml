@@ -59,11 +59,11 @@
                         </div>
                     </div>
                 </header>
-                <!-- Content -->
-				@RenderSection("featured", required: false)
+                <!-- Content -->				
                 <div class="content" id="dnc-content">
                     <div class="belt">
                         <div class="grid">
+                            @RenderSection("featured", required: false)
                             @RenderBody()         
                         </div>
                     </div>					
