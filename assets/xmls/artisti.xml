@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artisti>
+	<artist>
+		<nume>Artist 1</nume>
+		<data_nasterii>Data 1</data_nasterii>
+		<nationalitate>Nationalitate 1</nationalitate>
+		<descriere>Descriere 1</descriere>
+	</artist>
+	<artist>
+		<nume>Artist 2</nume>
+		<data_nasterii>Data 2</data_nasterii>
+		<nationalitate>Nationalitate 2</nationalitate>
+		<descriere>Descriere 2</descriere>
+	</artist>
+	<artist>
+		<nume>Artist 3</nume>
+		<data_nasterii>Data 3</data_nasterii>
+		<nationalitate>Nationalitate 3</nationalitate>
+		<descriere>Descriere 3</descriere>
+	</artist>
+	<artist>
+		<nume>Artist 4</nume>
+		<data_nasterii>Data 4</data_nasterii>
+		<nationalitate>Nationalitate 4</nationalitate>
+		<descriere>Descriere 4</descriere>
+	</artist>
+	<artist>
+		<nume>Artist 5</nume>
+		<data_nasterii>Data 5</data_nasterii>
+		<nationalitate>Nationalitate 5</nationalitate>
+		<descriere>Descriere 5</descriere>
+	</artist>
+</artisti>
