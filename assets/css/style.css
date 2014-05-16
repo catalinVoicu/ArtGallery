@@ -1,7 +1,6 @@
-
-/* Art Gallery 
+/* My Account
     
-   Practice Website
+    Practice Website
     
 */
 
@@ -137,6 +136,11 @@ optgroup {
     font-weight: bold;
 }
 
+/**
+* #.# Section title
+*
+* Description of section, whether or not it has media queries, etc.
+*/
 
 @media only screen and (min-width:767px) {
     .grid {
@@ -246,6 +250,11 @@ optgroup {
     }
 }
 
+/**
+* #.# Section title
+*
+* Description of section, whether or not it has media queries, etc.
+*/
 
 * {
     -webkit-box-sizing: border-box;
@@ -335,6 +344,12 @@ body {
         display: none;
     }
 }
+
+/**
+* #.# Section title
+*
+* Description of section, whether or not it has media queries, etc.
+*/
 
 /* Adam Fontface */
 
@@ -452,6 +467,12 @@ p {
     margin-bottom: 10px;
 }
 
+/**
+* #.# Section title
+*
+* Description of section, whether or not it has media queries, etc.
+*/
+
 /* Icons */
 
 i {
@@ -484,14 +505,7 @@ i {
     background-position: center;
 }
 
-.arrow-ico {
-    width: 16px;
-    height: 15px;
-}
 
-.ai-down {
-    background: url('icons/down-128.png') no-repeat;
-}
 
 /* Clear Jquery styling */
 
@@ -603,6 +617,12 @@ header, .content, footer {
     box-shadow: inset 0px 0px 3px rgba(0,0,0,.4);
 }
 
+/**
+* #.# Section title
+*
+* Description of section, whether or not it has media queries, etc.
+*/
+
 /* -------- Navigation --------*/
 
 .header {
@@ -682,6 +702,7 @@ header, .content, footer {
 
     .nav-menu li {
         margin: 0;
+        padding: 0;
         border-right: 1px solid #444;
         border-left: 1px solid #ccc;
     }
@@ -708,10 +729,50 @@ header, .content, footer {
     }
 }
 /* -------- Content --------*/
-.content {
-    min-height: calc(100% - 174px);
+.hdr-content, .content {
+    padding: 10px;
 }
 
+.hdr-content {
+    margin-bottom: 30px;
+}
+
+.input-field .label-txt {
+    line-height: 2.3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.input-field .input-txt {
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+.input-field .form-btn {
+    width: 100%;
+    float: right;
+    padding: 5px 10px;
+    margin-top: 20px;
+    background-color: #FFC407;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.3em;
+}
+
+@media only screen and (min-width:767px) {
+    .input-field .label-txt {
+        text-align: right;
+    }
+
+    .input-field .form-btn {
+        
+        width: 200px;
+    }
+}
 
 /* -------- Footer --------*/
 
@@ -720,17 +781,62 @@ header, .content, footer {
 }
 
 .ftr-color {
-    background-color: #C44131;
+    background-color: #444;
     padding: 10px;
     color: White;
 }
 
-.ftr-head {
-    padding: 5px 20px 10px 0;
+.ftr-item a {
+    color: White !important;
+    text-decoration: none;
 }
 
-.ftr-txt a {
-    color: White !important;
+.footer .ftr-item .arrow-ico {
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    right: 5px;
+}
+
+.footer .ftr-item .ai-down {
+    background: url('icons/down-128.png') no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+    padding: 10px 15px;
+}
+
+.footer .ftr-item .ai-right {
+    background: url('icons/right-128.png') no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+    padding: 10px 15px;
+}
+
+.ftr-head {
+    display: block;
+    padding: 5px 35px 0 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+
+.ftr-section {
+    display: none;
+    margin: 40px 0 20px 0;
+}
+
+.ftr-section li {
+    padding: 5px 0 10px 0;
+    border-top: 1px solid white;
+}
+
+.ftr-section li:first-child {
+    border-top: none;
+}
+
+.ftr-section li a {
+    display: block;
+    position: relative;
 }
 
 @media only screen and (min-width:767px) {
@@ -743,12 +849,27 @@ header, .content, footer {
         min-height: 100px;
     }
 
-    .ftr-txt {
+    .ftr-item {
         margin: 0 auto;
         width: 70%;
     }
 
-    .ftr-txt h2 {
+    .ftr-head {
+        padding: 0 0 10px 0;
+        border: none;
+    }
+
+    .ftr-section {
+        display: block;
+        margin: 0;
+    }
+
+    .ftr-section li {
+        padding: 0;
+        border-top: none;
+    }
+
+    .ftr-item .ftr-head {
         text-decoration: underline;
     }
 }
