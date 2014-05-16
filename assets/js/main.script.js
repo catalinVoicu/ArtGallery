@@ -51,7 +51,7 @@ function footerPlay() {
 };
 
 $(document).ready(function () {
-    //navplay();
+    navplay();
     navConfig();
     bottomFooter();
     footerPlay();
@@ -59,6 +59,8 @@ $(document).ready(function () {
 
 $(window).resize(function () {
      if ($(window).width() >= 767) {
+        $('.nav-btn .menu-btn').removeClass('active');
+        $('.main-nav .nav-menu').removeAttr('style');
         $('.ftr-item .ftr-head').removeClass('active');
         $('.footer .ftr-section').removeAttr('style');
     }

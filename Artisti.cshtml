@@ -2,7 +2,21 @@
     Layout = "~/_SiteLayout.cshtml";
     Page.Title = "Artisti";
 }
+@using System.Xml;
+@using System.Xml.Xsl
+
+@{
+    XslCompiledTransform xslt = new XslCompiledTransform();
+    xslt.Load("C:\\Users\\cvoicu\\Documents\\My Web Sites\\ArtGallery\\assets\\xsls\\artisti.xsl");
+
+    string output;
+    StringWriter writer = new StringWriter();
+    xslt.Transform("C:\\Users\\cvoicu\\Documents\\My Web Sites\\ArtGallery\\assets\\xmls\\artisti.xml",null, writer);
+    output = writer.ToString();
+
+    writer.Close();
+}
 <div class="col w-100">
-    Artisti
+   @Html.Raw(output)
 </div>
 
