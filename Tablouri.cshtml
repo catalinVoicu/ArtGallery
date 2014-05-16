@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Contact";
+}
+
+@using System.Xml;
+@using System.Xml.Xsl
+
+@{
+    XslCompiledTransform xslt = new XslCompiledTransform();
+    xslt.Load("C:\\Users\\cvoicu\\Documents\\My Web Sites\\ArtGallery\\assets\\xsls\\tablouri.xsl");
+
+    string output;
+    StringWriter writer = new StringWriter();
+    xslt.Transform("C:\\Users\\cvoicu\\Documents\\My Web Sites\\ArtGallery\\assets\\xmls\\tablouri.xml",null, writer);
+    output = writer.ToString();
+
+    writer.Close();
+}
+<div class="col w-100">
+   @Html.Raw(output)
+</div>
