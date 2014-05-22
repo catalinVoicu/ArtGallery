@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tablouri>
+<tablouri xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="file://C:\\Users\\Razvan\\Documents\\GitHub\\ArtGallery\\assets\\xsds\\tablouri.xsd">
 	<tablou>
 		<nume>Tablou 1</nume>
 		<autor>Autor 1</autor>

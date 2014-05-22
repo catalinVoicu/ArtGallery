@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<artisti>
+<artisti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="file://C:\\Users\\Razvan\\Documents\\GitHub\\ArtGallery\\assets\\xsds\\artisti.xsd">
 	<artist id="1">
 		<nume>Artist 1</nume>
 		<data_nasterii>Data 1</data_nasterii>
