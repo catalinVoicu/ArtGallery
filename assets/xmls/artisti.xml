@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <artisti>
-	<artist>
+	<artist id="1">
 		<nume>Artist 1</nume>
 		<data_nasterii>Data 1</data_nasterii>
 		<nationalitate>Nationalitate 1</nationalitate>
 		<descriere>Descriere 1</descriere>
 	</artist>
-	<artist>
+	<artist id="2">
 		<nume>Artist 2</nume>
 		<data_nasterii>Data 2</data_nasterii>
 		<nationalitate>Nationalitate 2</nationalitate>
 		<descriere>Descriere 2</descriere>
 	</artist>
-	<artist>
+	<artist id="3">
 		<nume>Artist 3</nume>
 		<data_nasterii>Data 3</data_nasterii>
 		<nationalitate>Nationalitate 3</nationalitate>
 		<descriere>Descriere 3</descriere>
 	</artist>
-	<artist>
+	<artist id="4">
 		<nume>Artist 4</nume>
 		<data_nasterii>Data 4</data_nasterii>
 		<nationalitate>Nationalitate 4</nationalitate>
 		<descriere>Descriere 4</descriere>
 	</artist>
-	<artist>
+	<artist id="5">
 		<nume>Artist 5</nume>
 		<data_nasterii>Data 5</data_nasterii>
 		<nationalitate>Nationalitate 5</nationalitate>
