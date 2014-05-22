@@ -18,11 +18,11 @@
         xmlhttp.send();
         xmlDoc=xmlhttp.responseXML; 
 
-        document.write("<table border='1'>");
-        document.write("<tr><td>Nume</td><td>Adresa</td><td>Telefon</td>");
+        document.write("<table class=\"tg\">");
+        document.write("<tr><th>Nume</th><th>Adresa</th><th>Telefon</th>");
         var x=xmlDoc.getElementsByTagName("galerie");
         for (i=0;i<x.length;i++)
-        { 
+        {
             document.write("<tr><td>");
             document.write(x[i].getElementsByTagName("nume")[0].childNodes[0].nodeValue);
             document.write("</td><td>");
