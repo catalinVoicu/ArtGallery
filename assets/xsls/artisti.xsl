@@ -5,15 +5,15 @@
         <html>
             <body>
                 <h2>Artisti</h2>
-                <table border="1">
-                    <tr bgcolor="#9acd32">
+                <table class="tg">
+                    <tr>
                         <th>Nume</th>
                         <th>Data</th>
                         <th>Nationalitate</th>
                         <th>Descriere</th>
                     </tr>
                     <xsl:for-each select="artisti/artist">
-                    <tr class="bkc-tr">
+                    <tr>
                         <td><xsl:value-of select="nume" /></td>
                         <td><xsl:value-of select="data_nasterii" /></td>
                         <td><xsl:value-of select="nationalitate" /></td>
