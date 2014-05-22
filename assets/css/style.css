@@ -636,11 +636,11 @@ header, .content, footer {
 .nav-btn {
     position: relative;
     height: 40px;
-    background: #b6d147;
+    background: #ffae06;
 }
 
 .nav-menu {
-    background-color: #b6d147;
+    background-color: #ffae06;
     padding: 0;
     margin: 0 -10px;
     overflow: hidden;
