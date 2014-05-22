@@ -882,9 +882,11 @@ header, .content, footer {
 }
 
 
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;margin:0px auto;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:20px 20px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;border-top-width:1px;border-bottom-width:1px;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:20px 20px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;border-top-width:1px;border-bottom-width:1px;}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;border:none;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:20px 20px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:20px 20px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
+.tg .tg-ghvp{background-color:#f0ecec}
 .tg .tg-e3zv{font-weight:bold}
 .tg .tg-anmw{font-weight:bold;font-size:12px;font-family:Georgia, serif !important;;background-color:#f9a461}
+.tg .tg-76tn{background-color:#efefef}
 .tg .tg-z2zr{background-color:#FCFBE3}
