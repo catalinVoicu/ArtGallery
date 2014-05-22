@@ -774,6 +774,13 @@ header, .content, footer {
     }
 }
 
+.bkc-tr {
+    background-color: #ccc;
+}
+
+
+
+
 /* -------- Footer --------*/
 
 .footer {

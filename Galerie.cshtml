@@ -4,33 +4,35 @@
 }
 
 <div class="col w-100">
+    <h2> Galerii</h2>
     <script type="text/javascript" >
         if (window.XMLHttpRequest)
-          {// code for IE7+, Firefox, Chrome, Opera, Safari
-          xmlhttp=new XMLHttpRequest();
-          }
+        {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
         else
-          {// code for IE6, IE5
-          xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-          }
+        {// code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
         xmlhttp.open("GET","assets/xmls/galerii.xml",false);
         xmlhttp.send();
         xmlDoc=xmlhttp.responseXML; 
 
         document.write("<table border='1'>");
+        document.write("<tr><td>Nume</td><td>Adresa</td><td>Telefon</td>");
         var x=xmlDoc.getElementsByTagName("galerie");
         for (i=0;i<x.length;i++)
-          { 
-          document.write("<tr><td>");
-          document.write(x[i].getElementsByTagName("nume")[0].childNodes[0].nodeValue);
-          document.write("</td><td>");
-          document.write(x[i].getElementsByTagName("adresa")[0].childNodes[0].nodeValue);
-          document.write("</td><td>");
-          document.write(x[i].getElementsByTagName("telefon")[0].childNodes[0].nodeValue);
-          document.write("</td></tr>");
-          }
+        { 
+            document.write("<tr><td>");
+            document.write(x[i].getElementsByTagName("nume")[0].childNodes[0].nodeValue);
+            document.write("</td><td>");
+            document.write(x[i].getElementsByTagName("adresa")[0].childNodes[0].nodeValue);
+            document.write("</td><td>");
+            document.write(x[i].getElementsByTagName("telefon")[0].childNodes[0].nodeValue);
+            document.write("</td></tr>");
+        }
         document.write("</table>");
-</script>
+    </script>
 
   
     

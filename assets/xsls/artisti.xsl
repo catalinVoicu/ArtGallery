@@ -13,7 +13,7 @@
                         <th>Descriere</th>
                     </tr>
                     <xsl:for-each select="artisti/artist">
-                    <tr>
+                    <tr class="bkc-tr">
                         <td><xsl:value-of select="nume" /></td>
                         <td><xsl:value-of select="data_nasterii" /></td>
                         <td><xsl:value-of select="nationalitate" /></td>

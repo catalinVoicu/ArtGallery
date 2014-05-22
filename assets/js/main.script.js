@@ -49,14 +49,6 @@ function footerPlay() {
     }
 
 };
-
-$(document).ready(function () {
-    navplay();
-    navConfig();
-    bottomFooter();
-    footerPlay();
-});
-
 $(window).resize(function () {
      if ($(window).width() >= 767) {
         $('.nav-btn .menu-btn').removeClass('active');
@@ -67,3 +59,11 @@ $(window).resize(function () {
     bottomFooter();
     console.log("resize event");
 });
+
+$(document).ready(function () {
+    navplay();
+    navConfig();
+    bottomFooter();
+    footerPlay();
+});
+
